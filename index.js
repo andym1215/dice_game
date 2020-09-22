@@ -1,24 +1,17 @@
-
+// Setting variables to different items needed for computing the game in The
+// later if/elseif/else statement section
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
-
 var randomDiceImage = "dice" + randomNumber1 + ".png";
-
 var randomImageSource = "images/" + randomDiceImage;
-
 var image1 = document.querySelectorAll("img")[0];
-
 image1.setAttribute("src", randomImageSource);
-
-
+// Same as above, just setting a second "dice" to have the same random setup
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
-
 var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
-
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
-
-
+// The If-elseif-else statement that determines the outcome of the game
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "🚩 Play 1 Wins!";
+  document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!";
 }
 else if (randomNumber2 > randomNumber1) {
   document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";

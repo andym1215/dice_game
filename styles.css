@@ -1,41 +1,35 @@
+/* Class Elements */
 .container {
   width: 70%;
   margin: auto;
   text-align: center;
 }
-
 .dice {
   text-align: center;
   display: inline-block;
-
 }
-
+/* HTML Elements */
 body {
-  background-color: #393E46;
+  background-color: #3c2946;
 }
-
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+  margin: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 10px 0 #56556e;
+  font-size: 7.5rem;
+  color: #bbd196;
 }
-
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #ffd571;
+  font-family: 'Merriweather',Arial,sans-serif;
 }
-
 img {
   width: 80%;
 }
-
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #ffd571;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  font-family: 'Merriweather',Arial,sans-serif;
 }
